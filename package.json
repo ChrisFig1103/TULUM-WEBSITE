@@ -4,7 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ChrisFig1103/TULUM-WEBSITE/issues"
   },
-  "homepage": "https://github.com/ChrisFig1103/TULUM-WEBSITE#readme"
+  "homepage": "https://github.com/ChrisFig1103/TULUM-WEBSITE#readme",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
 }
