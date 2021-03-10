@@ -1,8 +1,8 @@
 const express = require ('express')
 const app = express()
 const PORT = process.env.PORT || 3000;
-
-app.use(express.static('./library'))
+ 
+app.use(express.static('../library'))
 
 app.set('view engine', 'pug')
 
