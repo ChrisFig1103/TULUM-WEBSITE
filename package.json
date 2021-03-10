@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ChrisFig1103/TULUM-WEBSITE#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "heroku": "^7.50.0",
     "pug": "^3.0.2"
   }
